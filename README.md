@@ -1,47 +1,18 @@
-
-
 # CommenTerra
 
+Description of the project
 
+## Instructions
 
-## Usage
+If you would like to download the code and try it for yourself:
 
+Preconditions: node.js, npm and mongoDB are instulled on your PC, mongoDB is started.
 
-
-## Developing
-
-
-
-### Tools
-
-Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
-
-Nodeclipse is free open-source project that grows with your contributions.
-
-### Import to Nodeclipse:
-
-File > Import > Git > Project from Git > Clone URI > https://github.com/ZoeEsaulova/CommenTerra.git
-
-### Get newest project version:
-
-Team > Pull
-
-### Add changes to local repository:
-
-Team > Add to index
-
-### Commit changes: 
-
-Team > Commit > Add comments
-
-### Push changes to GitHub:
-
-Team > Push to Upstream 
-
-### Create new branch: 
-
-Team > Push to branch
+1. Clone the repo: `git clone https://github.com/ZoeEsaulova/CommenTerra.git`
+2. Install packages: `npm install`
+3. Change out the database configuration in config/database.js
+4. Launch: `node server.js`
+5. Visit in your browser at: `http://localhost:80`
 
 
 
